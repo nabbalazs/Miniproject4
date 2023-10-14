@@ -1,0 +1,2 @@
+Database type: txt
+Other options: seed, bin, txt, sql
