@@ -88,6 +88,8 @@ VALUES
                     print(f"Something went wrong: {err}")
         print("The SQL table was successfully filled with new data.")
 
+    connection.commit()
+
     print(f"{singles} 1-hits, {doubles} 2-hits, {triples} 3-hits, {quads} 4-hits and {hits} 5-hits")
     return(hits)
 
